@@ -4,7 +4,7 @@ import NavigationItems from '../NaviggationItems/NavigationItems';
 import classes from './SideDrawer.css';
 
 import Backdrop from '../../UI/Backdrop/Backdrop';
-import Wrapper from '../../../hoc/Wrapper';
+import Wrapper from '../../../hoc/Wrapper/Wrapper';
 
 const sideDrawer = (props) => {
     //... conditionally add classes
