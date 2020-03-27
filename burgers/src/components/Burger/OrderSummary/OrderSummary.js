@@ -4,7 +4,7 @@ import Button from '../../UI/Button/Button';
 import Wrapper from '../../../hoc/Wrapper/Wrapper';
 
 class OrderSummary extends Component {
-    componentWillUpdate(){
+    UNSAFE_componentWillUpdate(){
         console.log("[OrderSummary] willUpdate");
     }
 
